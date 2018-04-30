@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\challenges"
+    "\\challenges",
+    "\\solutions",
+    "\\solutions\\day0"
   ],
-  "SelectedNode": "\\challenges\\day4.md",
+  "SelectedNode": "\\solutions\\day0",
   "PreviewInSolutionExplorer": false
 }
