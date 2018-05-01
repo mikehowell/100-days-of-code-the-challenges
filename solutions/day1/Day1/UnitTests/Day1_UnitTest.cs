@@ -15,7 +15,7 @@ namespace UnitTests
             var resultArray = sampler.ReturnSample(4, 10);
             var expectedResult = new List<int> { 9, 8, 7, 6 };
 
-            Assert.IsTrue(resultArray == expectedResult);
+            CollectionAssert.AreEqual(expectedResult, resultArray);
         }
     }
 }
