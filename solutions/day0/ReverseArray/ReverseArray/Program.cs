@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReverseArray
+namespace Day0
 {
     class Program
     {

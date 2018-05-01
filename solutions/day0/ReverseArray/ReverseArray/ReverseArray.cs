@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReverseArray
+namespace Day0
 {
     public class Reverse
     {

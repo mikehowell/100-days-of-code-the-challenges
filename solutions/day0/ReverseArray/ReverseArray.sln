@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{981FA896-7AD7-4D22-BEDD-C4747E43718A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day0", "ReverseArray\Day0.csproj", "{981FA896-7AD7-4D22-BEDD-C4747E43718A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{80E1B9C7-D56B-4529-8186-BB8C3B69B3F4}"
 EndProject

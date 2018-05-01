@@ -55,9 +55,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ReverseArray\ReverseArray.csproj">
+    <ProjectReference Include="..\ReverseArray\Day0.csproj">
       <Project>{981fa896-7ad7-4d22-bedd-c4747e43718a}</Project>
-      <Name>ReverseArray</Name>
+      <Name>Day0</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
