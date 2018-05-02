@@ -1,4 +1,4 @@
-## Day 4: ##
+## Day 3: ##
 ### Sort Three Numbers ###
 
 Example from [http://www.programmr.com/challenges/sort-three-numbers](http://www.programmr.com/challenges/sort-three-numbers)
