@@ -1,4 +1,4 @@
-## Day 5: ##
+## Day 6: ##
 ### ISBN Validations ###
 
 Example from [http://www.programmr.com/challenges/isbn-validation](http://www.programmr.com/challenges/isbn-validation)
