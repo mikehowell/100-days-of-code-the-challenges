@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearCheck", "LeapYearCheck\LeapYearCheck.csproj", "{5D931C94-8D87-4040-A24A-99835D0D0833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearCheck.UnitTests", "LeapYearCheck.UnitTests\LeapYearCheck.UnitTests.csproj", "{924CC7E5-AA0B-459C-99C9-14B785FEF34A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D931C94-8D87-4040-A24A-99835D0D0833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D931C94-8D87-4040-A24A-99835D0D0833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D931C94-8D87-4040-A24A-99835D0D0833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D931C94-8D87-4040-A24A-99835D0D0833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924CC7E5-AA0B-459C-99C9-14B785FEF34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924CC7E5-AA0B-459C-99C9-14B785FEF34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924CC7E5-AA0B-459C-99C9-14B785FEF34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924CC7E5-AA0B-459C-99C9-14B785FEF34A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BF2C497-5CDE-4A78-808E-0227B3486254}
+	EndGlobalSection
+EndGlobal
