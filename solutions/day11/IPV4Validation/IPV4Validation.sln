@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPV4Validation", "IPV4Validation\IPV4Validation.csproj", "{FFF799C8-6F3E-41E4-ABCD-A573CE4A69D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPV4Validation.UnitTests", "IPV4Validation.UnitTests\IPV4Validation.UnitTests.csproj", "{B677DE40-E634-459B-BCEF-CFCCE40B8188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF799C8-6F3E-41E4-ABCD-A573CE4A69D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF799C8-6F3E-41E4-ABCD-A573CE4A69D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF799C8-6F3E-41E4-ABCD-A573CE4A69D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF799C8-6F3E-41E4-ABCD-A573CE4A69D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B677DE40-E634-459B-BCEF-CFCCE40B8188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B677DE40-E634-459B-BCEF-CFCCE40B8188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B677DE40-E634-459B-BCEF-CFCCE40B8188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B677DE40-E634-459B-BCEF-CFCCE40B8188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F9FA048-CD78-426D-ABEB-B04FF5B5AD69}
+	EndGlobalSection
+EndGlobal
