@@ -14,7 +14,7 @@
                 int o;
                 isOctetValid = int.TryParse(octet, out o);
 
-                if (!isOctetValid || octets.Length != 4 || o < 0 || o > 255  || octet.Substring(0,1) == "0")
+                if (!isOctetValid || octets.Length != 4 || o < 0 || o > 255  || octet.StartsWith("0") || octet.StartsWith(" ") || octet.EndsWith(" "))
                 {
                     result = false;
                     break;
