@@ -10,7 +10,7 @@ Steve’s task is to delete as many characters as possible using this method and
 
 **Input Format**
 
-    A single string, _s_.
+    A single string, s.
 
 **Constraints**
 
@@ -18,7 +18,7 @@ Steve’s task is to delete as many characters as possible using this method and
 
 **Output Format**
 
-    If the final string is empty, print **Empty String**; otherwise, print the final non-reducible string.
+    If the final string is empty, print Empty String; otherwise, print the final non-reducible string.
 
 **Sample Input 0**
 
