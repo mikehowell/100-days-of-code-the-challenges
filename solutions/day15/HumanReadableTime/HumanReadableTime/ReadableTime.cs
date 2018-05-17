@@ -27,7 +27,6 @@ namespace HumanReadableTime
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
                 throw;
             }
            
