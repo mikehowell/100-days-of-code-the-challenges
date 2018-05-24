@@ -1,4 +1,4 @@
-## Day 22 ##
+## Day 21 ##
 
 ### Design a database connection ###
 
