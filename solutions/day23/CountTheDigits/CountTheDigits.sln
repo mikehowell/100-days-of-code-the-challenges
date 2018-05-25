@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountTheDigits", "CountTheDigits\CountTheDigits.csproj", "{D0045828-FFB8-4C94-8924-A339BC515306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountTheDigits.UnitTests", "CountTheDigits.UnitTests\CountTheDigits.UnitTests.csproj", "{EE1DF245-CB28-4003-B6C2-3383E6222B0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0045828-FFB8-4C94-8924-A339BC515306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0045828-FFB8-4C94-8924-A339BC515306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0045828-FFB8-4C94-8924-A339BC515306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0045828-FFB8-4C94-8924-A339BC515306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1DF245-CB28-4003-B6C2-3383E6222B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1DF245-CB28-4003-B6C2-3383E6222B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1DF245-CB28-4003-B6C2-3383E6222B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1DF245-CB28-4003-B6C2-3383E6222B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04F2A268-9AFC-4AD5-BE57-8CA65E2B867B}
+	EndGlobalSection
+EndGlobal
