@@ -15,5 +15,14 @@ namespace CompleteThePattern.UnitTests
 
             Assert.AreEqual(expectedResult, pc.Pattern(5));
         }
+
+        [TestMethod]
+        public void Pattern_ProvideIntInputLessThanOne_ReturnsEmptyString()
+        {
+            var pc = new PatternCompletion();
+            string expectedResult = string.Empty;
+
+            Assert.AreEqual(expectedResult, pc.Pattern(0));
+        }
     }
 }
