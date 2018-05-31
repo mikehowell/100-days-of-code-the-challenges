@@ -11,23 +11,13 @@ namespace ChangeReturn
     {
         static void Main(string[] args)
         {
-            //var cr = new ChangeReturn();
-            //Console.WriteLine(cr.GetChange(500, 600));
+            var cr = new ChangeReturn();
 
-            decimal d = (decimal)186.91;
-            int dollar = (int)d;
-            Console.WriteLine(dollar);
+            foreach (var item in cr.GetChange((decimal)1.95, (decimal)5.00))
+            {
+                Console.WriteLine(item.Denomination + " " + item.Number);
+            }
             
-            int cent = (int)((d - (decimal)dollar) * 100);
-            Console.WriteLine(cent);
-
-            var numberOf100Dollars = (dollar-(dollar % 100))/100;
-            //var change = new Change() {Denomination = Denomination.HundredDollar, Number = numberOf100Dollars};
-
-            var numberOf50Dollars = (dollar - (numberOf100Dollars * 100)) % 50;
-            Console.WriteLine(numberOf50Dollars);
-
-
         }
     }
 }
