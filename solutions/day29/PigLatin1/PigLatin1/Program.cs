@@ -11,7 +11,7 @@ namespace PigLatin1
         static void Main(string[] args)
         {
             var plt = new PigLatin();
-            Console.WriteLine(plt.EnglishToPigLatin("hello world"));
+            Console.WriteLine(plt.EnglishToPigLatin("Hello, World."));
             Console.ReadLine();
 
         }

@@ -45,7 +45,7 @@ namespace PigLatin1.UnitTests
             }
 
             //Uncomment here for Extra Credit
-            /*
+            
            [TestMethod]
            public void PigLatin_returns_EthayIckquayOwnbrayOxfayOverwayEthayAzylayOgday_for_input_TheQuickBrownFoxJumpsOverTheLazyDog()
            {
@@ -59,7 +59,7 @@ namespace PigLatin1.UnitTests
                var result = pigLatin.EnglishToPigLatin("Code Katas are a good way to hone your skills.");
                Assert.AreEqual("Odecay Ataskay areway away oodgay ayway otay onehay ouryay illsskay.",result);
            }
-           */
+           
         }
     }
 }
