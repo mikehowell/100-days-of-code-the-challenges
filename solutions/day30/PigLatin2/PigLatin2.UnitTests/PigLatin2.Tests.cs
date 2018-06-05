@@ -41,7 +41,7 @@ namespace PigLatin2.UnitTests
             Assert.AreEqual("glove", result);
         }
 
-        /* Uncomment here for Extra Credit
+        /*Uncomment here for Extra Credit
         
          [TestMethod]
         public void PigLatin_returns_TheQuickBrownFoxJumpsOverTheLazyDog_for_input_EthayIckquayOwnbrayOxfayOverwayEthayAzylayOgday()
@@ -56,7 +56,6 @@ namespace PigLatin2.UnitTests
             var result = pigLatin.PigLatinToEnglish("Odecay Ataskay areway away oodgay ayway otay onehay ouryay illsskay.");
             Assert.AreEqual("Code Katas are a good way to hone your skills.",result);
         }
-         
-         */
+        */
     }
 }

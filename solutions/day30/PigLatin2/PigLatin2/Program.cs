@@ -12,6 +12,10 @@ namespace PigLatin2
         {
             var etpl = new PigLatin();
             Console.WriteLine(etpl.PigLatinToEnglish("iway"));
+            Console.WriteLine(etpl.PigLatinToEnglish("ellohay"));
+            Console.WriteLine(etpl.PigLatinToEnglish("oveglay"));
+
+            
         }
     }
 }

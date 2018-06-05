@@ -29,14 +29,18 @@ namespace PigLatin2
         {
             var result = string.Empty;
 
-            if (s.EndsWith("way") && (s.ToUpper().StartsWith("A") || s.ToUpper().StartsWith("E") || s.ToUpper().StartsWith("I") || s.ToUpper().StartsWith("O") || s.ToUpper().StartsWith("U")))
+            if (s.Contains(" "))
             {
-                result = s.Substring(0, s.Length - 3);
+                var words = s.Split(' ');
+
+                foreach (var word in words)
+                {
+                    result = result.Trim() + " " + PigLatinToEnglishHelper(word);
+                }
             }
             else
             {
-                //TODO: implement this fully, more work needed here to return correct result
-                result = s.Substring(0, s.Length - 2);
+                result = PigLatinToEnglishHelper(s);
             }
 
             return result;
@@ -71,6 +75,34 @@ namespace PigLatin2
             if (word.EndsWith(",")) { result = result.Replace(",", "") + ","; }
 
             if (word.EndsWith(".")) { result = result.Replace(".", "") + "."; }
+
+            return result.Trim();
+        }
+
+        private string PigLatinToEnglishHelper(string word)
+        {
+            var result = string.Empty;
+
+            if (word.EndsWith("way") && (word.ToUpper().StartsWith("A") || word.ToUpper().StartsWith("E") || word.ToUpper().StartsWith("I") || word.ToUpper().StartsWith("O") || word.ToUpper().StartsWith("U")))
+            {
+                result = word.Substring(0, word.Length - 3);
+            }
+            else
+            {
+                var tempResult = word.Substring(0, word.Length - 2);
+
+                char[] vowels = { 'A', 'E', 'I', 'O', 'U' };
+
+                char[] tempResultArray = tempResult.ToCharArray();
+                Array.Reverse(tempResultArray);
+                string tempResultReverse = new string(tempResultArray);
+
+
+                int indexOfLastVowel = tempResult.Length - tempResultReverse.ToUpper().IndexOfAny(vowels);
+
+                result = tempResult.Substring(indexOfLastVowel) + tempResult.Substring(0, indexOfLastVowel);
+
+            }                
 
             return result.Trim();
         }
