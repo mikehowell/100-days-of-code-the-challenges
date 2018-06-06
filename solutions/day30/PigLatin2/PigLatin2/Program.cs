@@ -11,11 +11,14 @@ namespace PigLatin2
         static void Main(string[] args)
         {
             var etpl = new PigLatin();
-            Console.WriteLine(etpl.PigLatinToEnglish("iway"));
-            Console.WriteLine(etpl.PigLatinToEnglish("ellohay"));
-            Console.WriteLine(etpl.PigLatinToEnglish("oveglay"));
+            //Console.WriteLine(etpl.PigLatinToEnglish("iway"));
+            //Console.WriteLine(etpl.PigLatinToEnglish("ellohay"));
+            //Console.WriteLine(etpl.PigLatinToEnglish("oveglay"));
 
-            
+            Console.WriteLine(etpl.PigLatinToEnglish("Ethay ickquay, ownbray oxfay umpsjay overway ethay azylay ogday"));
+
+            Console.ReadLine();
+
         }
     }
 }
