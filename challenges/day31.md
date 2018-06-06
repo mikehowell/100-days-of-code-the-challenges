@@ -15,3 +15,9 @@ Example for a 4 shifted cipher:
     B shifted 4 becomes F
 
 So as a result you replace every instance of A with E and B with F. Caesar cipher should always return all values in the original case of the input and should not change any non alphabet characters like numbers, spaces or punctuation.
+
+### Caesar Cipher - Part 2 ###
+
+Example from [GitHub Repo](https://github.com/AlanBarber/CodeKatas).
+
+Modify the **Decode()** function in the CaesarCipher project to decode an already encoded string of text back into english with a provided shift level.
