@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWord", "LongestWord\LongestWord.csproj", "{6F81614F-55A5-48B7-A75D-5577C25664B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWord.UnitTests", "LongestWord.UnitTests\LongestWord.UnitTests.csproj", "{5AC28CD3-34A6-4E67-B72B-193880DE0BA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F81614F-55A5-48B7-A75D-5577C25664B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F81614F-55A5-48B7-A75D-5577C25664B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F81614F-55A5-48B7-A75D-5577C25664B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F81614F-55A5-48B7-A75D-5577C25664B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC28CD3-34A6-4E67-B72B-193880DE0BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC28CD3-34A6-4E67-B72B-193880DE0BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC28CD3-34A6-4E67-B72B-193880DE0BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC28CD3-34A6-4E67-B72B-193880DE0BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D211163-33A5-49AA-AFAD-0F1BE2A79F12}
+	EndGlobalSection
+EndGlobal
