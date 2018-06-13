@@ -1,5 +1,4 @@
-﻿using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace ZerosAndOnes
 {
@@ -8,7 +7,10 @@ namespace ZerosAndOnes
         static void Main(string[] args)
         {
             var parser = new ParseString();
-            int result = parser.ShortestString("01010");
+            int result = parser.ShortestString("110100");
+            Console.WriteLine(result);
+            result = parser.ShortestString("01010");
+            Console.WriteLine(result);
         }
     }
 }

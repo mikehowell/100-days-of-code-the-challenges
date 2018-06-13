@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace ZerosAndOnes
@@ -9,9 +8,31 @@ namespace ZerosAndOnes
         public int ShortestString(string zerosAndOnes)
         {
             int count = 0;
-            var arrayOfZerosAndOnes = zerosAndOnes.ToCharArray();
+            List<char> arrayOfZerosAndOnes = new List<char>(zerosAndOnes.ToArray<char>());
+            List<char> processedArray = new List<char>();
 
-            char[] processedArray = ProcessArray(arrayOfZerosAndOnes);
+            for (int i = 0; i < arrayOfZerosAndOnes.Count;)
+            {
+                if (!(i+2>arrayOfZerosAndOnes.Count))
+                {
+                    if (arrayOfZerosAndOnes[i] != arrayOfZerosAndOnes[i+1])
+                    {
+                        processedArray.Add(' ');
+                        processedArray.Add(' ');
+                        i += 2;
+                    }
+                    else
+                    {
+                        processedArray.Add(arrayOfZerosAndOnes[i]);
+                        i++;
+                    }
+                }
+                else if (arrayOfZerosAndOnes.Count > processedArray.Count)
+                {
+                    processedArray.Add(arrayOfZerosAndOnes[arrayOfZerosAndOnes.Count-1]);
+                    i++;
+                }
+            }
 
             foreach (var character in processedArray)
             {
@@ -22,32 +43,6 @@ namespace ZerosAndOnes
             }
 
             return count;
-        }
-
-        private Char[] ProcessArray(char[] arrayOfZerosAndOnes)
-        {
-            List<char> charArray = new List<char>();
-
-            for (int i = 0; i < arrayOfZerosAndOnes.Length; i++)
-            {
-                if (i == 0)
-                {
-                    charArray.Add(arrayOfZerosAndOnes[i]);
-                }
-                else
-                {
-                    if (arrayOfZerosAndOnes[i-1] != arrayOfZerosAndOnes[i])
-                    {
-                        charArray.Add(' ');
-                    }
-                    else
-                    {
-                        charArray.Add(arrayOfZerosAndOnes[i]);
-                    }
-                }
-            }
-
-            return charArray.ToArray<char>();
         }
     }
 }
