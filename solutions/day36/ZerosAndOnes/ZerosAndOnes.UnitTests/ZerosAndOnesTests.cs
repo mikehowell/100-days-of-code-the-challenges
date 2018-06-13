@@ -19,5 +19,17 @@ namespace ZerosAndOnes.UnitTests
         {
             Assert.AreEqual(1, ps.ShortestString("01010"));
         }
+
+        [TestMethod]
+        public void ShortestString_Input_010101_Returns0()
+        {
+            Assert.AreEqual(0, ps.ShortestString("010101"));
+        }
+
+        [TestMethod]
+        public void ShortestString_Input_1100010_Returns0()
+        {
+            Assert.AreEqual(3, ps.ShortestString("1100010"));
+        }
     }
 }

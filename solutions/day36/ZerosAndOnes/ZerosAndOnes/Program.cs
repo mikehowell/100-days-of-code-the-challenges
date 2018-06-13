@@ -11,6 +11,10 @@ namespace ZerosAndOnes
             Console.WriteLine(result);
             result = parser.ShortestString("01010");
             Console.WriteLine(result);
+            result = parser.ShortestString("010101");
+            Console.WriteLine(result);
+            result = parser.ShortestString("1100010");
+            Console.WriteLine(result);
         }
     }
 }
