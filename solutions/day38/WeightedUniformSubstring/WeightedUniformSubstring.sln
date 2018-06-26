@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedUniformSubstring", "WeightedUniformSubstring\WeightedUniformSubstring.csproj", "{FBAB309A-803E-4A3B-AC6D-A6410945FC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedUniformSubstring.UnitTests", "WeightedUniformSubstring.UnitTests\WeightedUniformSubstring.UnitTests.csproj", "{8A58D131-B135-42A7-8493-9775B918DEFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBAB309A-803E-4A3B-AC6D-A6410945FC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAB309A-803E-4A3B-AC6D-A6410945FC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAB309A-803E-4A3B-AC6D-A6410945FC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAB309A-803E-4A3B-AC6D-A6410945FC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A58D131-B135-42A7-8493-9775B918DEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A58D131-B135-42A7-8493-9775B918DEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A58D131-B135-42A7-8493-9775B918DEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A58D131-B135-42A7-8493-9775B918DEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5DD74DB-9D6F-45C6-A284-D1E6776C044B}
+	EndGlobalSection
+EndGlobal
